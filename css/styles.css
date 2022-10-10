@@ -52,7 +52,7 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: var(--logo-text-color);
+  color: var(--black-text-color);
 }
 
 .logo span {
@@ -983,7 +983,6 @@ padding: 0;
 .form-input:not(:placeholder-shown) + .form-label {
   transform: translateY(-35px);
   left: 0;
-  /* color: #00000000; */
 }
 
 .plh-text:not(:placeholder-shown) + .form-comment {
