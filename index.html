@@ -15,14 +15,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
     <header class="header-border">
       <div class="conteiner main-nav">
         <nav class="main-nav">
-          <a href="index.html" class="logo"><span>Web</span>Studio</a>
+          <a href="index.html" class="logo"><span class="logo-span">Web</span>Studio</a>
           <ul class="site-nav nav-item list indent">
             <li class="item"><a href="" class="nav-link current">Студія</a></li>
             <li class="item"><a href="portfolio.html" class="nav-link">Портфоліо</a></li>
@@ -35,14 +35,14 @@
             <a
               href="#mailto:info@devstudio.com"
               class="nav-link contacts-header contact-icon color-contact">
-              <svg viewBox="0 0 100 100" width="16" class="contact-svg icon">
+              <svg viewBox="0 0 100 100" width="16" class="contact-svg">
                 <use xlink:href="./images/icons.svg#icon-mail"></use></svg>info@devstudio.com</a>
           </li>
           <li class="item">
             <a
               href="#tel:+380961111111"
               class="nav-link contacts-header contact-icon color-contact">
-              <svg viewBox="0 0 100 100" width="16" class="contact-svg icon">
+              <svg viewBox="0 0 100 100" width="16" class="contact-svg">
                 <use xlink:href="./images/icons.svg#icon-tel"></use></svg>+38 096 111 11 11</a>
           </li>
         </ul>
@@ -57,12 +57,12 @@
       </section>
       <!-- About -->
       <section class="section">
-        <div class="conteiner about-padding">
+        <div class="conteiner">
           <h2 hidden>УВАГА ДО ДЕТАЛЕЙ</h2>
-          <ul class="site-nav list about-item">
-            <li class="about-flex">
+          <ul class="site-nav list about-list">
+            <li class="about-item">
               <div class="about-icon">
-                <svg viewBox="0 0 100 100" width="70" class="icon-element">
+                <svg viewBox="0 0 100 100" width="70">
                   <use xlink:href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
@@ -71,9 +71,9 @@
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li class="about-flex">
+            <li class="about-item">
               <div class="about-icon">
-                <svg viewBox="0 0 100 100" width="70" class="icon-element">
+                <svg viewBox="0 0 100 100" width="70">
                   <use xlink:href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -82,9 +82,9 @@
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li class="about-flex">
+            <li class="about-item">
               <div class="about-icon">
-                <svg viewBox="0 0 100 100" width="70" class="icon-element">
+                <svg viewBox="0 0 100 100" width="70">
                   <use xlink:href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
@@ -93,9 +93,9 @@
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="about-flex">
+            <li class="about-item">
               <div class="about-icon">
-                <svg viewBox="0 0 100 100" width="70" class="icon-element">
+                <svg viewBox="0 0 100 100" width="70">
                   <use xlink:href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
@@ -108,29 +108,29 @@
         </div>
       </section>
       <section>
-        <div class="conteiner img">
-          <h2 class="img-title">Чим ми займаємося</h2>
-          <ul class="site-nav list img-item">
-            <li class="img-flex">
-              <div class="img-overley">
+        <div class="conteiner general">
+          <h2 class="general-title">Чим ми займаємося</h2>
+          <ul class="site-nav list general-list">
+            <li class="general-item">
+              <div class="general-overley">
               <img src="./images/tablet.jpg" alt="Планшет клавіатура" width="370" />
-            <div class="img-box">
-              <h3 class="img-text">Десктопні додатки</h3>
+            <div class="general-box">
+              <h3 class="general-text">Десктопні додатки</h3>
             </div>
             </div>
             </li>
-            <li class="img-flex">
-              <div class="img-overley">
+            <li class="general-item">
+              <div class="general-overley">
               <img src="./images/phone.jpg" alt="Телефон" width="370" />
-              <div class="img-box">
-                <p class="img-text">Десктопні додатки</p>
+              <div class="general-box">
+                <p class="general-text">Десктопні додатки</p>
                 </div>
             </li>
-            <li class="img-flex">
-              <div class="img-overley">
+            <li class="general-item">
+              <div class="general-overley">
               <img src="./images/tablet-2.jpg" alt="Планшет" width="370" />
-              <div class="img-box">
-                <p class="img-text">Десктопні додатки</p>
+              <div class="general-box">
+                <p class="general-text">Десктопні додатки</p>
                 </div>
             </li>
           </ul>
@@ -138,38 +138,38 @@
       </section>
       <section class="team-our section">
         <div class="conteiner team">
-          <h2 class="general-title">Наша команда</h2>
-          <ul class="site-nav list team-item">
-            <li class="team-flex team-bgc">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="site-nav list team-list">
+            <li class="team-item team-bgc">
               <img src="./images/human-1.jpg" alt="Ігор Дем'яненко" width="270" />
-              <div class="container-name">
-                <h3 class="name">Ігор Дем'яненко</h3>
-                <p class="name-text">Product Designer</p>
+              <div class="team-name">
+                <h3 class="team-name__title">Ігор Дем'яненко</h3>
+                <p class="team-name__text">Product Designer</p>
                 <ul class="team-social list">
-                  <li class="social-item">
-                    <a class="team-icon" href="">
-                      <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
+                      <svg viewBox="0 0 100 100" width="20">
                         <use xlink:href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="team-icon" href="">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
                       <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
                         <use xlink:href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="team-icon" href="">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
                       <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
                         <use xlink:href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="team-icon" href="">
-                      <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
+                      <svg viewBox="0 0 100 100" width="20">
                         <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -177,35 +177,35 @@
                 </ul>
               </div>
             </li>
-            <li class="team-flex team-bgc">
+            <li class="team-item team-bgc">
               <img src="./images/human-2.jpg" alt="Ольга Рєпіна" width="270" />
-              <div class="container-name">
-                <h3 class="name">Ольга Рєпіна</h3>
-                <p class="name-text">Frontend Developer</p>
+              <div class="team-name">
+                <h3 class="team-name__title">Ольга Рєпіна</h3>
+                <p class="team-name__text">Frontend Developer</p>
                 <ul class="team-social list">
-                  <li class="social-item">
-                    <a class="team-icon" href="">
-                      <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
+                      <svg viewBox="0 0 100 100" width="20">
                         <use xlink:href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="team-icon" href="">
-                      <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
+                      <svg viewBox="0 0 100 100" width="20">
                         <use xlink:href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="team-icon" href="">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
                       <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
                         <use xlink:href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="team-icon" href="">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
                       <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
                         <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -214,35 +214,35 @@
                 </ul>
               </div>
             </li>
-            <li class="team-flex team-bgc">
+            <li class="team-item team-bgc">
               <img src="./images/human-3.jpg" alt="Микола Тарасов" width="270" />
-              <div class="container-name">
-                <h3 class="name">Микола Тарасов</h3>
-                <p class="name-text">Marketing</p>
+              <div class="team-name">
+                <h3 class="team-name__title">Микола Тарасов</h3>
+                <p class="team-name__text">Marketing</p>
                 <ul class="team-social list">
-                  <li class="social-item">
-                    <a class="team-icon" href="">
-                      <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
+                      <svg viewBox="0 0 100 100" width="20">
                         <use xlink:href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="team-icon" href="">
-                      <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
+                      <svg viewBox="0 0 100 100" width="20">
                         <use xlink:href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="team-icon" href="">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
                       <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
                         <use xlink:href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="team-icon" href="">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
                       <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
                         <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -251,35 +251,35 @@
                 </ul>
               </div>
             </li>
-            <li class="team-flex team-bgc">
+            <li class="team-item team-bgc">
               <img src="./images/human-4.jpg" alt="Михайло Єрмаков" width="270" />
-              <div class="container-name">
-                <h3 class="name">Михайло Єрмаков</h3>
-                <p class="name-text">UI Designer</p>
+              <div class="team-name">
+                <h3 class="team-name__title">Михайло Єрмаков</h3>
+                <p class="team-name__text">UI Designer</p>
                 <ul class="team-social list">
-                  <li class="social-item">
-                    <a class="team-icon" href="">
-                      <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
+                      <svg viewBox="0 0 100 100" width="20">
                         <use xlink:href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="team-icon" href="">
-                      <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
+                      <svg viewBox="0 0 100 100" width="20">
                         <use xlink:href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="team-icon" href="">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
                       <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
                         <use xlink:href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="team-icon" href="">
+                  <li class="team-social__item">
+                    <a class="team-social__icon" href="">
                       <svg viewBox="0 0 100 100" width="20" class="icon shape-codepen">
                         <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -294,45 +294,45 @@
       <section class="section">
         <div class="conteiner">
           <h2 class="clients-title">Постійні клієнти</h2>
-          <div class="client-container">
+          <div class="clients-container">
             <ul class="list clients-list">
-              <li class="client-list">
-                <a class="client-link" href="">
+              <li class="clients-item">
+                <a class="clients-link" href="">
                   <svg viewBox="0 0 28 32" width="41" class="clients-border">
                     <use xlink:href="./images/icons.svg#icon-client1"></use>
                   </svg>
                 </a>
               </li>
-              <li class="client-list">
-                <a class="client-link" href="">
+              <li class="clients-item">
+                <a class="clients-link" href="">
                   <svg viewBox="0 0 25 32" width="40" class="icon shape-codepen">
                     <use xlink:href="./images/icons.svg#icon-client2"></use>
                   </svg>
                 </a>
               </li>
-              <li class="client-list">
-                <a class="client-link" href="">
+              <li class="clients-item">
+                <a class="clients-link" href="">
                   <svg viewBox="0 0 34 32" width="44" class="icon shape-codepen">
                     <use xlink:href="./images/icons.svg#icon-client3"></use>
                   </svg>
                 </a>
               </li>
-              <li class="client-list">
-                <a class="client-link" href="">
+              <li class="clients-item">
+                <a class="clients-link" href="">
                   <svg viewBox="0 0 65 32" width="84" class="icon shape-codepen">
                     <use xlink:href="./images/icons.svg#icon-client4"></use>
                   </svg>
                 </a>
               </li>
-              <li class="client-list">
-                <a class="client-link" href="">
+              <li class="clients-item">
+                <a class="clients-link" href="">
                   <svg viewBox="0 0 43 32" width="63" class="icon shape-codepen">
                     <use xlink:href="./images/icons.svg#icon-client5"></use>
                   </svg>
                 </a>
               </li>
-              <li class="client-list">
-                <a class="client-link" href="">
+              <li class="clients-item">
+                <a class="clients-link" href="">
                   <svg viewBox="0 0 67 32" width="94" class="icon shape-codepen">
                     <use xlink:href="./images/icons.svg#icon-client6"></use>
                   </svg>
@@ -343,66 +343,68 @@
         </div>
       </section>
     </main>
-    <footer class="footer-item">
+    <footer class="footer">
       <div class="conteiner container-footer">
-        <div class="footer-padding">
-          <a href="index.html" class="logo logo-footer logo-top"><span>Web</span>Studio</a>
-          <address clasmaps="address-footer">
-            <ul class="list footer-flex">
-              <li class="footer-link">
+        <div class="footer-address">
+          <a href="index.html" class="logo logo-footer logo-top"><span class="logo-span">Web</span>Studio</a>
+          <address>
+            <ul class="list">
+              <li class="address-list">
                 <a
                   href="https://goo.gl/maps/oDGecrBfa1tS1iLr5"
                   target="_blank"
                   rel="noopener nofollow noreferrer"
-                  class="address-list"
+                  class="address-link"
                 >
                   м. Київ, пр-т Лесі Українки, 26
                 </a>
               </li>
-              <li class="footer-link">
+              <li class="address-list">
                 <a
                   id="mailto:info@devstudio.com"
                   href="mailto:info@devstudio.com"
-                  class="address-list contacts"
+                  class="address-link address-contacts"
                 >
                   info@devstudio.com
                 </a>
               </li>
-              <li class="footer-link">
-                <a id="tel:+380961111111" href="tel:+380961111111" class="address-list contacts">
+              <li class="address-list">
+                <a id="tel:+380961111111" 
+                   href="tel:+380961111111" 
+                   class="address-link address-contacts">
                   +38 096 111 11 11
                 </a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="social-footer">
-          <p class="title-soc"><b>приєднуйтесь</b></p>
-          <ul class="social-list list color-fill">
-            <li class="footer-list">
-              <a class="fill-fotter" href="">
-                <svg viewBox="0 0 100 100" width="20" class="icon-footer">
+        <div class="action-footer">
+          <p class="action"><b>приєднуйтесь</b></p>
+          <ul class="action__list list">
+            <li class="action__item">
+              <a class="action__link" href="">
+                <svg viewBox="0 0 100 100" width="20">
                   <use xlink:href="./images/icons.svg#icon-instagram-f"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-list">
-              <a class="fill-fotter" href="">
-                <svg viewBox="0 0 100 100" width="20" class="icon">
+            <li class="action__item">
+              <a class="action__link" href="">
+                <svg viewBox="0 0 100 100" width="20">
                   <use xlink:href="./images/icons.svg#icon-twitter-f"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-list">
-              <a class="fill-fotter" href="">
-                <svg viewBox="0 0 100 100" width="20" class="icon">
+            <li class="action__item">
+              <a class="action__link" href="">
+                <svg viewBox="0 0 100 100" width="20">
                   <use xlink:href="./images/icons.svg#icon-facebook-f"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-list">
-              <a class="fill-fotter" href="">
-                <svg viewBox="0 0 100 100" width="20" class="icon">
+            <li class="action__item">
+              <a class="action__link" href="">
+                <svg viewBox="0 0 100 100" width="20">
                   <use xlink:href="./images/icons.svg#icon-linkedin-f"></use>
                 </svg>
               </a>
@@ -416,10 +418,9 @@
       <div class="subscribe">
         
 <form name="subscribe-form" autocomplete="on" novalidate>
-  <label class="subsc-form subsc-list footer-link subsc-link">
-    <p class="title-soc"><b>Підпишіться на розсилку</b></p>
-    <input class="subsc-write" type="email" name="email" placeholder="E-mail">
-    <!-- <span class="subsc-write1">E-mail</span> -->
+  <label class="subscribe-form__label">
+    <p class="action"><b>Підпишіться на розсилку</b></p>
+    <input class="subscribe-form__write" type="email" name="email" placeholder="E-mail">
   </label>
 
     <button type="button" class="hero-btn btn-footer">
@@ -436,65 +437,66 @@
 
 <!-- Modal -->
 <div class="backdrop is-hidden" data-modal>
-  <div class="modal">
+  <div class="modal-hero">
   <button type="button" class="close-btn" data-modal-close>
-    <svg viewBox="0 0 32 32" width="11" class="close">
+    <svg viewBox="0 0 32 32" width="11">
       <use xlink:href="./images/icons.svg#icon-close"></use>
     </svg>
-    <!-- <button type="button" data-modal-close>Закрыть</button> -->
   </button>
 
-<form class="form">
+<form class="data">
 
-  <b class="title-modal">Залиште свої дані, ми вам передзвонимо</b>
+  <b class="data__action">Залиште свої дані, ми вам передзвонимо</b>
 
-  <label class="form-field">
-    <input type="text" name="name" class="form-input" placeholder=" ">
-    <span class="form-label">Ім'я</span>
-        <span class="icon-form">
-          <svg viewBox="0 0 32 32" width="18" class="person">
+  <label class="data-field">
+    <input type="text" name="name" class="data-field__input" placeholder=" ">
+    <span class="data-field__text">Ім'я</span>
+        <span class="data-field__icon">
+          <svg viewBox="0 0 32 32" width="18">
           <use xlink:href="./images/icons.svg#icon-person"></use>
         </svg>
       </span>
       </label>
 
       
-      <label class="form-field">
-        <input  type="tel" name="tel" class="form-input" placeholder=" ">
-        <span class="form-label">Телефон</span>
-        <span class="icon-form">
-          <svg viewBox="0 0 32 32" width="18" class="person">
+      <label class="data-field">
+        <input  type="tel" name="tel" class="data-field__input" placeholder=" ">
+        <span class="data-field__text">Телефон</span>
+        <span class="data-field__icon">
+          <svg viewBox="0 0 32 32" width="18">
           <use xlink:href="./images/icons.svg#icon-modal-tel"></use>
         </svg>
       </span>
       </label>
 
-      <label class="form-field">
-        <input  type="email" name="email" class="form-input" placeholder=" ">
-        <span class="form-label">Пошта</span>
-        <span class="icon-form">
-          <svg viewBox="0 0 32 32" width="18" class="person">
+      <label class="data-field">
+        <input  type="email" name="email" class="data-field__input" placeholder=" ">
+        <span class="data-field__text">Пошта</span>
+        <span class="data-field__icon">
+          <svg viewBox="0 0 32 32" width="18">
           <use xlink:href="./images/icons.svg#icon-modal-email"></use>
         </svg>
       </span>
       </label>
 
       <!-- <b class="text-comment">Коментар</b> -->
-      <label class="form-field comment">
-        <span class="text-comment">Коментар</span>
-        <textarea name="comment" rows="8" class="plh-text" placeholder=" "></textarea>
-        <span class="form-comment">Введіть текст</span>
+      <label class="data-field comment">
+        <span class="comment__text">Коментар</span>
+        <textarea name="comment" rows="8" class="comment-plh" placeholder=" "></textarea>
+        <span class="comment__input">Введіть текст</span>
       
       </label>
 
         <label class="policy">
-        <input class="checkbox" type="checkbox" name="policy" value="css">
-        <span class="icon-check">
+        <input class="policy__checkbox" type="checkbox" name="policy" value="css">
+        <span class="policy__icon">
           <!-- <svg viewBox="0 0 100 100" width="15" hieght="15" class="person color-check">
             <use xlink:href="./images/icons.svg#icon-check"></use>
           </svg> -->
         </span>
-        <span class="policy-text">Погоджуюся з розсилкою та приймаю <a href="/" class="policy-link">Умови договору</a> </span> 
+        <span class="policy__text">Погоджуюся з розсилкою та приймаю 
+          <a href="/" class="policy__link">Умови договору</a> 
+        </span> 
       </label>
 
       <button type="submit" class="hero-btn btn-form">Відправити</button>
