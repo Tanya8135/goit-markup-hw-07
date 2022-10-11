@@ -21,10 +21,10 @@
 .general-item {
   max-width: 370px;
   margin-right: 30px;
-}
 
-.general-item:nth-child(3n) {
-  margin-right: 0;
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
 }
 
 .general-overley {

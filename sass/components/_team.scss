@@ -34,10 +34,10 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
 
-.team-item:nth-child(4n) {
-  margin-right: 0;
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
 }
 
 .team-name {
@@ -70,10 +70,10 @@
 
 .team-social__item {
   margin-right: 10px;
-}
 
-.team-social__item:nth-child(4n) {
-  margin-right: 0;
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
 }
 
 .team-social__icon {
@@ -87,14 +87,13 @@
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.team-social__icon:hover,
-.team-social__icon:focus {
-  background-color: $accent-color;
-  fill: $hover-fill-icon;
-  background: $accent-color;
-  fill: $hover-fill-icon;
-  outline: none;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    fill: $hover-fill-icon;
+    background: $accent-color;
+    fill: $hover-fill-icon;
+    outline: none;
+  }
 }
-

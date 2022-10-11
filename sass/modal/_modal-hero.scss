@@ -38,8 +38,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-.close-btn:hover {
-  fill: $accent-color;
+  &:hover {
+    fill: $accent-color;
+  }
 }
