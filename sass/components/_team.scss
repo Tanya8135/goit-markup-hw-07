@@ -14,12 +14,11 @@
 }
 
 .team-title {
+  @include font(36px, 700, 1.2);
+
   margin: 0;
   padding-bottom: 50px;
   text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
   color: $basic-text-color;
 }
 
@@ -45,12 +44,11 @@
 }
 
 .team-name__title {
+@include font (16px, 500, 1.9);
+
   margin: 0 auto;
   margin-bottom: 10px;
   text-align: center;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.9;
   color: $basic-text-color;
 }
 

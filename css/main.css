@@ -62,11 +62,11 @@ img {
 }
 
 .logo {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
   color: #000000;
 }
 .logo-span {
@@ -87,11 +87,11 @@ img {
 }
 
 .nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
   display: block;
   color: #212121;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   padding-top: 32px;
   padding-bottom: 32px;
   -webkit-box-align: center;
@@ -184,6 +184,9 @@ img {
 }
 
 .hero-btn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,9 +199,6 @@ img {
   margin: 0 auto;
   padding: 10px 34px;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.9;
-  font-weight: 700;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
@@ -240,11 +240,11 @@ img {
 }
 
 .about-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
   margin-top: 0;
   margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   color: #212121;
 }
 
@@ -309,8 +309,8 @@ img {
 }
 
 .general-text {
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -338,12 +338,12 @@ img {
 }
 
 .team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
   margin: 0;
   padding-bottom: 50px;
   text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
   color: #212121;
 }
 
@@ -371,12 +371,12 @@ img {
 }
 
 .team-name__title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.9;
   margin: 0 auto;
   margin-bottom: 10px;
   text-align: center;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.9;
   color: #212121;
 }
 
@@ -429,8 +429,8 @@ img {
 }
 
 .clients-title {
-  font-weight: 700;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.2;
   text-align: center;
   color: #212121;
@@ -505,12 +505,12 @@ img {
 }
 
 .logo-footer {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
   display: inline-block;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
   color: #ffffff;
   margin-bottom: 20px;
 }
@@ -547,13 +547,13 @@ img {
 }
 
 .action {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -960,11 +960,11 @@ img {
 }
 
 .btn-filter {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
   font-size: 16px;
-  text-align: center;
+  font-weight: 500;
   line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
   color: #212121;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -1058,10 +1058,10 @@ img {
 }
 
 .designat-title {
-  margin-bottom: 4px;
-  font-weight: 700;
   font-size: 18px;
+  font-weight: 700;
   line-height: 2;
+  margin-bottom: 4px;
   color: #212121;
 }
 

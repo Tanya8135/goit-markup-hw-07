@@ -24,15 +24,14 @@
 }
 
 .hero-btn {
+@include font (16px, 700, 1.9);
+
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   padding: 10px 34px;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 1.9;
-  font-weight: 700;
   letter-spacing: 00.06em;
   color: $white-text;
   background-color: $accent-color;

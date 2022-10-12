@@ -1,7 +1,6 @@
 .clients-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
+  @include font(36px, 700, 1.2);
+
   text-align: center;
   color: $basic-text-color;
   padding-bottom: 50px;

@@ -20,11 +20,10 @@
 }
 
 .btn-filter {
+  @include font(16px, 500, 1.6);
+
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
   text-align: center;
-  line-height: 1.6;
   color: $basic-text-color;
   background-color: $btn-bgc-filter;
   border-radius: 4px;
@@ -118,10 +117,9 @@
 }
 
 .designat-title {
+  @include font(18px, 700, 2);
+
   margin-bottom: 4px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
   color: $basic-text-color;
 }
 

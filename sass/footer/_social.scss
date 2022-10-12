@@ -5,11 +5,10 @@
 }
 
 .action {
+@include font (14px, 700, 1.2);
+
   display: flex;
   margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $white-text;
