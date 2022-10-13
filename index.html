@@ -34,16 +34,22 @@
           <li class="item">
             <a
               href="#mailto:info@devstudio.com"
-              class="nav-link contacts-header contact-icon color-contact">
+              class="nav-link contacts-header contact-icon color-contact"
+            >
               <svg viewBox="0 0 100 100" width="16" class="contact-svg">
-                <use xlink:href="./images/icons.svg#icon-mail"></use></svg>info@devstudio.com</a>
+                <use xlink:href="./images/icons.svg#icon-mail"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
           <li class="item">
             <a
               href="#tel:+380961111111"
-              class="nav-link contacts-header contact-icon color-contact">
+              class="nav-link contacts-header contact-icon color-contact"
+            >
               <svg viewBox="0 0 100 100" width="16" class="contact-svg">
-                <use xlink:href="./images/icons.svg#icon-tel"></use></svg>+38 096 111 11 11</a>
+                <use xlink:href="./images/icons.svg#icon-tel"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -114,25 +120,27 @@
           <ul class="site-nav list general-list">
             <li class="general-item">
               <div class="general-overley">
-              <img src="./images/tablet.jpg" alt="Планшет клавіатура" width="370" />
-            <div class="general-box">
-              <h3 class="general-text">Десктопні додатки</h3>
-            </div>
-            </div>
+                <img src="./images/tablet.jpg" alt="Планшет клавіатура" width="370" />
+                <div class="general-box">
+                  <h3 class="general-text">Десктопні додатки</h3>
+                </div>
+              </div>
             </li>
             <li class="general-item">
               <div class="general-overley">
-              <img src="./images/phone.jpg" alt="Телефон" width="370" />
-              <div class="general-box">
-                <p class="general-text">Десктопні додатки</p>
+                <img src="./images/phone.jpg" alt="Телефон" width="370" />
+                <div class="general-box">
+                  <p class="general-text">Мобільні додатки</p>
                 </div>
+              </div>
             </li>
             <li class="general-item">
               <div class="general-overley">
-              <img src="./images/tablet-2.jpg" alt="Планшет" width="370" />
-              <div class="general-box">
-                <p class="general-text">Десктопні додатки</p>
+                <img src="./images/tablet-2.jpg" alt="Планшет" width="370" />
+                <div class="general-box">
+                  <p class="general-text">Дизайнерські рішення</p>
                 </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -347,7 +355,9 @@
     <footer class="footer">
       <div class="conteiner container-footer">
         <div class="footer-address">
-          <a href="index.html" class="logo logo-footer logo-top"><span class="logo-span">Web</span>Studio</a>
+          <a href="index.html" class="logo logo-footer logo-top"
+            ><span class="logo-span">Web</span>Studio</a
+          >
           <address>
             <ul class="list">
               <li class="address-list">
@@ -370,9 +380,11 @@
                 </a>
               </li>
               <li class="address-list">
-                <a id="tel:+380961111111" 
-                   href="tel:+380961111111" 
-                   class="address-link address-contacts">
+                <a
+                  id="tel:+380961111111"
+                  href="tel:+380961111111"
+                  class="address-link address-contacts"
+                >
                   +38 096 111 11 11
                 </a>
               </li>
@@ -412,106 +424,95 @@
             </li>
           </ul>
         </div>
-      
 
-<!-- Subscribe подписаться -->
+        <!-- Subscribe подписаться -->
 
-      <div class="subscribe">
-        
-<form name="subscribe-form" autocomplete="on" novalidate>
-  <label class="subscribe-form__label">
-    <p class="action"><b>Підпишіться на розсилку</b></p>
-    <input class="subscribe-form__write" type="email" name="email" placeholder="E-mail">
-  </label>
+        <div class="subscribe">
+          <form name="subscribe-form" autocomplete="on" novalidate>
+            <label class="subscribe-form__label">
+              <p class="action"><b>Підпишіться на розсилку</b></p>
+              <input class="subscribe-form__write" type="email" name="email" placeholder="E-mail" />
+            </label>
 
-    <button type="button" class="hero-btn btn-footer">
-      Підписатися
-      <svg viewBox="0 0 100 100" width="24" class="icon-telegram">
-        <use xlink:href="./images/icons.svg#icon-telegram"></use>
-      </svg>
-    </button>
-    </form>
-      </div>
+            <button type="button" class="hero-btn btn-footer">
+              Підписатися
+              <svg viewBox="0 0 100 100" width="24" class="icon-telegram">
+                <use xlink:href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
+    <!-- Modal -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-hero">
+        <button type="button" class="close-btn" data-modal-close>
+          <svg viewBox="0 0 32 32" width="11">
+            <use xlink:href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
 
-<!-- Modal -->
-<div class="backdrop is-hidden" data-modal>
-  <div class="modal-hero">
-  <button type="button" class="close-btn" data-modal-close>
-    <svg viewBox="0 0 32 32" width="11">
-      <use xlink:href="./images/icons.svg#icon-close"></use>
-    </svg>
-  </button>
+        <form class="data">
+          <b class="data__action">Залиште свої дані, ми вам передзвонимо</b>
 
-<form class="data">
+          <label class="data-field">
+            <input type="text" name="name" class="data-field__input" placeholder=" " />
+            <span class="data-field__text">Ім'я</span>
+            <span class="data-field__icon">
+              <svg viewBox="0 0 32 32" width="18">
+                <use xlink:href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </span>
+          </label>
 
-  <b class="data__action">Залиште свої дані, ми вам передзвонимо</b>
+          <label class="data-field">
+            <input type="tel" name="tel" class="data-field__input" placeholder=" " />
+            <span class="data-field__text">Телефон</span>
+            <span class="data-field__icon">
+              <svg viewBox="0 0 32 32" width="18">
+                <use xlink:href="./images/icons.svg#icon-modal-tel"></use>
+              </svg>
+            </span>
+          </label>
 
-  <label class="data-field">
-    <input type="text" name="name" class="data-field__input" placeholder=" ">
-    <span class="data-field__text">Ім'я</span>
-        <span class="data-field__icon">
-          <svg viewBox="0 0 32 32" width="18">
-          <use xlink:href="./images/icons.svg#icon-person"></use>
-        </svg>
-      </span>
-      </label>
+          <label class="data-field">
+            <input type="email" name="email" class="data-field__input" placeholder=" " />
+            <span class="data-field__text">Пошта</span>
+            <span class="data-field__icon">
+              <svg viewBox="0 0 32 32" width="18">
+                <use xlink:href="./images/icons.svg#icon-modal-email"></use>
+              </svg>
+            </span>
+          </label>
 
-      
-      <label class="data-field">
-        <input  type="tel" name="tel" class="data-field__input" placeholder=" ">
-        <span class="data-field__text">Телефон</span>
-        <span class="data-field__icon">
-          <svg viewBox="0 0 32 32" width="18">
-          <use xlink:href="./images/icons.svg#icon-modal-tel"></use>
-        </svg>
-      </span>
-      </label>
+          <!-- <b class="text-comment">Коментар</b> -->
+          <label class="data-field comment">
+            <span class="comment__text">Коментар</span>
+            <textarea name="comment" rows="8" class="comment-plh" placeholder=" "></textarea>
+            <span class="comment__input">Введіть текст</span>
+          </label>
 
-      <label class="data-field">
-        <input  type="email" name="email" class="data-field__input" placeholder=" ">
-        <span class="data-field__text">Пошта</span>
-        <span class="data-field__icon">
-          <svg viewBox="0 0 32 32" width="18">
-          <use xlink:href="./images/icons.svg#icon-modal-email"></use>
-        </svg>
-      </span>
-      </label>
-
-      <!-- <b class="text-comment">Коментар</b> -->
-      <label class="data-field comment">
-        <span class="comment__text">Коментар</span>
-        <textarea name="comment" rows="8" class="comment-plh" placeholder=" "></textarea>
-        <span class="comment__input">Введіть текст</span>
-      
-      </label>
-
-        <label class="policy">
-        <input class="policy__checkbox" type="checkbox" name="policy" value="css">
-        <span class="policy__icon">
-          <!-- <svg viewBox="0 0 100 100" width="15" hieght="15" class="person color-check">
+          <label class="policy">
+            <input class="policy__checkbox" type="checkbox" name="policy" value="css" />
+            <span class="policy__icon">
+              <!-- <svg viewBox="0 0 100 100" width="15" hieght="15" class="person color-check">
             <use xlink:href="./images/icons.svg#icon-check"></use>
           </svg> -->
-        </span>
-        <span class="policy__text">Погоджуюся з розсилкою та приймаю 
-          <a href="/" class="policy__link">Умови договору</a> 
-        </span> 
-      </label>
+            </span>
+            <span class="policy__text"
+              >Погоджуюся з розсилкою та приймаю
+              <a href="/" class="policy__link">Умови договору</a>
+            </span>
+          </label>
 
-      <button type="submit" class="hero-btn btn-form">Відправити</button>
-    </form>
- 
+          <button type="submit" class="hero-btn btn-form">Відправити</button>
+        </form>
+      </div>
     </div>
-</div>
 
-</form>
-
-
-  </div>
-</div>
-<!-- <button type="button" class="close-btn">X</button> -->
+    <!-- <button type="button" class="close-btn">X</button> -->
     <script src="./js/modal.js"></script>
   </body>
 </html>
